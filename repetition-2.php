@@ -1,7 +1,9 @@
 <?php
 
 for  ($counter = 1; $counter <= 15; $counter++) {
-    echo  "#$counter" . PHP_EOL;
+    if ($counter != 13) {
+        echo "#$counter" . PHP_EOL;
+    }
 }
 
 /* different ways to increment:
