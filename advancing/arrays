@@ -1,0 +1,5 @@
+<?php
+
+$ageList = [19, 26, 27, 28, 30];
+$myAge = $ageList[3];
+echo $myAge;
